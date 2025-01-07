@@ -12,6 +12,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="assets//css/card.css">
+	<link rel="stylesheet" href="assets/css/fade-in.css">
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
@@ -31,7 +32,7 @@
 				</svg>
 
 				<h1>SAMOEL ANDRES</h1>
-				<p>¡Es un placer recbir su visita!</p>
+				<p>¡Es un placer recbir tu visita!</p>
 		</header>
 
 		<!-- Nav -->
@@ -52,9 +53,9 @@
 				<div class="spotlight">
 					<div class="content">
 						<header class="major">
-							<h2>¡Hola!</h2>
+							<h2 class="text-hidden">¡Hola!</h2>
 						</header>
-						<p>
+						<p class="text-hidden">
 							Soy un desarrollador enfocado en el área web y en brindar soluciones tecnológicas a
 							problemáticas,
 							considerando puntos clave como el análisis de información y procesos, el diseño UX/UI y el
@@ -74,62 +75,61 @@
 					<h2>Tecnologías y frameworks</h2>
 				</header>
 				<ul class="features">
-					<li>
-						<img class="icon solid major style3" src="images/vs-code.svg" height="180" width="180"
-							alt="vs-code">
+					<li id="technology">
+						<img class="icon major style3" src="images/vs-code.svg" height="180" width="180" alt="vs-code">
 						<h3>VS Code</h3>
 						<p>Múltiples herramientas y extensiones disponibles hacen que mi experiencia desarrollando sea
 							cómoda y eficaz.</p>
 					</li>
-					<li>
+					<li id="technology">
 						<img class="icon major style3" src="images/nodejs.svg" height="180" width="180" alt="nodejs">
 						<h3>Node.js</h3>
 						<p>Un potente entorno de desarrollo que funciona mediante el lenguaje JavaScript, comúnmente
 							empleado para backend.</p>
 					</li>
-					<li>
+					<li id="technology">
 						<img class="icon major style3" src="images/html.svg" height="180" width="180" alt="html">
 						<h3>HTML</h3>
 						<p>El lenguaje de marcado para la estructuración de cualquier sitio web.</p>
 					</li>
-					<li>
+					<li id="technology">
 						<img class="icon major style3" src="images/css.svg" height="180" width="180" alt="css">
 						<h3>CSS</h3>
 						<p>El lenguaje para definir la presentación y diseño visual de los sitios web.</p>
 					</li>
-					<li>
+					<li id="technology">
 						<img class="icon major style3" height="180" width="180" src="images/bootstrap.svg"
 							alt="bootstrap">
 						<h3>Bootstrap</h3>
 						<p>Una framework de diseño basado en CSS que facilita la creación de sitios web responsivos de
 							manera rapida.</p>
 					</li>
-					<li>
+					<li id="technology">
 						<img class="icon major style3" src="images/laravel.svg" height="180" width="180" alt="laravel">
 						<h3>Laravel</h3>
 						<p>Framework de desarrollo que funciona con el lenguaje PHP y ofrece múltiples
 							ventajas sobre el desarrollo con PHP puro.</p>
 					</li>
-					<li>
+					<li id="technology">
 						<img class="icon major style3" height="180" width="180" src="images/angular.svg" alt="angular">
 						<h3>Angular</h3>
 						<p>Framework de desarrollo para construir aplicaciones web altamente escalables. Organiza la
 							aplicación en componentes reutilizables y emplea principalmente TypeScript, HTML y CSS</p>
 					</li>
-					<li>
+					<li id="technology">
 						<img class="icon major style3" height="180" width="180" src="images/mongo.svg" alt="mongodb">
 						<h3>MongoDB</h3>
 						<p>Un gestor de bases de datos no relacional (NoSQL) que ofrece funciones potentes para la
 							gestión y manipulación de documentos.</p>
 					</li>
-					<li>
+					<li id="technology">
 						<img class="icon major style3" height="180" width="180" src="images/mysql.svg" alt="mysql">
 						<h3>MySQL</h3>
 						<p>Gestor de bases de datos relacional (SQL) que emplea el lenguaje de consulta estructurado.
 							Ofrece
 							alta eficiencia y estabilidad.</p>
 					</li>
-					<li>
+					<li id="technology">
 						<img class="icon major style3" height="180" width="180" src="images/git.svg" alt="git">
 						<h3>Git</h3>
 						<p>Una herramienta de control de versiones muy útil, empleada para gestionar el historial y las
@@ -220,7 +220,7 @@
 								<p class="card-text">La idea de un proyecto personal diseñado para destacar mis
 									habilidades en desarrollo web, diseño visual y la capacidad de sintetizar la
 									información de manera efectiva.</p>
-								<a href="generic.html" class="button">Más detalles</a>
+								<a href="my-portfolio.html" class="button">Más detalles</a>
 							</div>
 						</div>
 					</li>
@@ -232,7 +232,7 @@
 								<p class="card-text">Consiste en una plataforma web que permite a los usuarios
 									registrarse, compartir publicaciones y conectar una comunidad a través de temas de
 									interés.</p>
-								<a href="generic.html" class="button">Más detalles</a>
+								<a href="blog-interactivo.html" class="button">Más detalles</a>
 							</div>
 						</div>
 					</li>
@@ -243,18 +243,18 @@
 								<h3 class="card-title">On Store (Prototipo de Diseño)</h3>
 								<p class="card-text">Una aplicación conceptual que facilita a los usuarios realizar
 									pedidos de productos de forma sencilla y cómoda, directamente desde su hogar.</p>
-								<a href="generic.html" class="button">Más detalles</a>
+								<a href="on-store.html" class="button">Más detalles</a>
 							</div>
 						</div>
 					</li>
 					<li>
 						<div class="card">
-							<img src="images/icecream/icon.svg" alt="Card Image" class="card-img">
+							<img src="images/icecream/preview.svg" alt="Card Image" class="card-img">
 							<div class="card-content">
 								<h3 class="card-title">ICE Cream (Prototipo de Rediseño)</h3>
 								<p class="card-text">Un rediseño visual enfocado en mejorar la experiencia del usuario y
 									la estética de una plataforma de venta de helados.</p>
-								<a href="generic.html" class="button">Más detalles</a>
+								<a href="ice-cream.html" class="button">Más detalles</a>
 							</div>
 						</div>
 					</li>

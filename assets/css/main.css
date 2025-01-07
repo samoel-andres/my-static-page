@@ -191,10 +191,13 @@ html {
 
 body {
 	background-color: #935d8c;
-	background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-	background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-	background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-	background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+	background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #005A97, #363795);
+	background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #005A97, #363795);
+	background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #005A97, #363795);
+	background-image: url("images/overlay.png"), linear-gradient(45deg, #005A97, #363795);
+	/* #314755, #26a0da */
+	/* #aa076b, #61045f */
+	/* #005A97, #363795 */
 }
 
 body.is-preload *,
@@ -2960,6 +2963,17 @@ table.alt tbody tr td {
 	margin-bottom: 0;
 }
 
+.features #technology {
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	padding: 10px;
+	transition: all .3s;
+
+	&:hover {
+		transform: scale(1.05)
+	}
+}
+
 @media screen and (max-width: 980px) {
 
 	.features li {
@@ -3017,23 +3031,58 @@ table.alt tbody tr td {
 }
 
 .statistics li.style1 {
-	background-color: #efa8b0;
+	/* background-color: #efa8b0; */
+	background-color: #fd6072;
+	transition: all .3s;
+
+	&:hover {
+		border-radius: 5px;
+		transform: scale(1.02);
+	}
 }
 
 .statistics li.style2 {
-	background-color: #c79cc8;
+	/* background-color: #c79cc8; */
+	background-color: #9a6b9b;
+	transition: all .3s;
+
+	&:hover {
+		border-radius: 5px;
+		transform: scale(1.02);
+	}
 }
 
 .statistics li.style3 {
-	background-color: #a89cc8;
+	/* background-color: #a89cc8; */
+	background-color: #8973c3;
+	transition: all .3s;
+
+	&:hover {
+		border-radius: 5px;
+		transform: scale(1.02);
+	}
 }
 
 .statistics li.style4 {
-	background-color: #9bb2e1;
+	/* background-color: #9bb2e1; */
+	background-color: #6a94e9;
+	transition: all .3s;
+
+	&:hover {
+		border-radius: 5px;
+		transform: scale(1.02);
+	}
 }
 
 .statistics li.style5 {
-	background-color: #8cc9f0;
+	/* background-color: #8cc9f0; */
+	background-color: #62bbf3;
+	transition: all .3s;
+
+	&:hover {
+		border-radius: 5px;
+		transform: scale(1.02);
+	}
 }
 
 .statistics li strong,
