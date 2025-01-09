@@ -7,7 +7,7 @@ Bienvenido a **Mi Portafolio Estático**, un sitio web personal en el que se mue
 
 ## Tabla de contenido
 
-- [Acerca de](#Acerca de)
+- [Acerca de](#Acerca)
 - [Características](#Características)
 - [Demostración](#Demostración)
 - [Instalación](#Instalación)
