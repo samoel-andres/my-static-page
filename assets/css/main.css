@@ -190,7 +190,7 @@ html {
 }
 
 body {
-	background-color: #935d8c;
+	background-color: #505151;
 	background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #005A97, #363795);
 	background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #005A97, #363795);
 	background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #005A97, #363795);
@@ -216,8 +216,9 @@ body.is-preload *:after {
 /* Type */
 
 body {
-	background-color: #935d8c;
-	color: rgba(255, 255, 255, 0.65);
+	/* background-color: #005A97; */
+	/* color: rgba(255, 255, 255, 0.65); */
+	color: rgba(255, 255, 255, 0.9);
 }
 
 body,
@@ -2301,7 +2302,8 @@ select option {
 
 input[type="checkbox"]+label,
 input[type="radio"]+label {
-	color: rgba(255, 255, 255, 0.65);
+	/* color: rgba(255, 255, 255, 0.65); */
+	color: rgba(255, 255, 255, 0.9);
 }
 
 input[type="checkbox"]+label:before,
@@ -3401,7 +3403,7 @@ body.is-preload #header.alt .logo {
 	-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 	transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 	background-color: #ffffff;
-	color: #636363;
+	color: #000;
 	position: absolute;
 	width: 64em;
 	max-width: calc(100% - 4em);
@@ -3416,16 +3418,16 @@ body.is-preload #header.alt .logo {
 #nav input,
 #nav select,
 #nav textarea {
-	color: #636363;
+	color: #000;
 }
 
 #nav a:hover {
-	color: #636363;
+	color: #000;
 }
 
 #nav strong,
 #nav b {
-	color: #636363;
+	color: #000;
 }
 
 #nav h1,
@@ -3434,7 +3436,7 @@ body.is-preload #header.alt .logo {
 #nav h4,
 #nav h5,
 #nav h6 {
-	color: #636363;
+	color: #000;
 }
 
 #nav blockquote {
@@ -3528,23 +3530,27 @@ body.is-preload #header.alt .logo {
 
 #main {
 	background-color: #ffffff;
-	color: #636363;
+	/* color: #000; */
+	color: #000;
 	border-radius: 0.25em;
 }
 
 #main input,
 #main select,
 #main textarea {
-	color: #636363;
+	/* color: #000; */
+	color: #000;
 }
 
 #main a:hover {
-	color: #636363;
+	/* color: #000; */
+	color: #000;
 }
 
 #main strong,
 #main b {
-	color: #636363;
+	/* color: #000; */
+	color: #000;
 }
 
 #main h1,
@@ -3553,7 +3559,8 @@ body.is-preload #header.alt .logo {
 #main h4,
 #main h5,
 #main h6 {
-	color: #636363;
+	/* color: #636363; */
+	color: #000;
 }
 
 #main blockquote {
@@ -3642,7 +3649,7 @@ body.is-preload #header.alt .logo {
 }
 
 #main label {
-	color: #636363;
+	color: #000;
 }
 
 #main input[type="text"],
@@ -3668,13 +3675,13 @@ body.is-preload #header.alt .logo {
 }
 
 #main select option {
-	color: #636363;
+	color: #000;
 	background: #ffffff;
 }
 
 #main input[type="checkbox"]+label,
 #main input[type="radio"]+label {
-	color: #636363;
+	color: #000;
 }
 
 #main input[type="checkbox"]+label:before,
@@ -3685,8 +3692,8 @@ body.is-preload #header.alt .logo {
 
 #main input[type="checkbox"]:checked+label:before,
 #main input[type="radio"]:checked+label:before {
-	background-color: #636363;
-	border-color: #636363;
+	background-color: #000;
+	border-color: #000;
 	color: #ffffff;
 }
 
@@ -3726,7 +3733,7 @@ body.is-preload #header.alt .logo {
 
 #main .icon.alt {
 	border-color: #dddddd;
-	color: #636363;
+	color: #000;
 }
 
 #main .icon.alt:hover {
@@ -3742,7 +3749,7 @@ body.is-preload #header.alt .logo {
 }
 
 #main dl dt {
-	color: #636363;
+	color: #000;
 }
 
 #main header.major h2:after {
@@ -3762,7 +3769,7 @@ body.is-preload #header.alt .logo {
 }
 
 #main table th {
-	color: #636363;
+	color: #000;
 }
 
 #main table thead {
