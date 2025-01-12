@@ -1,5 +1,5 @@
 @import url(fontawesome-all.min.css);
-@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
+/* @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400&display=swap'; */
 
 /*
 	Stellar by HTML5 UP
@@ -191,10 +191,10 @@ html {
 
 body {
 	background-color: #505151;
-	background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #005A97, #363795);
-	background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #005A97, #363795);
-	background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #005A97, #363795);
-	background-image: url("images/overlay.png"), linear-gradient(45deg, #005A97, #363795);
+	background-image: url("images/overlay.webp"), -moz-linear-gradient(45deg, #005A97, #363795);
+	background-image: url("images/overlay.webp"), -webkit-linear-gradient(45deg, #005A97, #363795);
+	background-image: url("images/overlay.webp"), -ms-linear-gradient(45deg, #005A97, #363795);
+	background-image: url("images/overlay.webp"), linear-gradient(45deg, #005A97, #363795);
 	/* #314755, #26a0da */
 	/* #aa076b, #61045f */
 	/* #005A97, #363795 */
