@@ -2,18 +2,16 @@
 <html lang="es">
 
 <head>
-	<title>Inicio - Samoel Andres</title>
+	<title>Samoel Andres</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Hola, soy Samoel Andres. Bienvenido a mi portafolio personal, donde encontrarás las tecnologías en las que me especializo,
 		los proyectos que he desarrollado y cómo puedo ayudarte a construir soluciones innovadoras. ¡Explora mi trabajo!">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<!-- <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400&display=swap" rel="stylesheet"> -->
-	<link rel="preload"
-		href="https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmhduz8A.woff2" as="font"
-		type="font/woff2" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400&display=swap" rel="stylesheet">
-
+	<link rel="preload" href="https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdu.woff2"
+		as="font" type="font/woff2" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400&display=swap" rel="preload" as="font"
+		onload="this.rel='stylesheet'">
 	<link rel="preload" href="assets/css/main.css" as="style" onload="this.rel='stylesheet'">
 	<link rel="preload" href="assets//css/card.css" as="style" onload="this.rel='stylesheet'">
 	<link rel="preload" href="assets/css/fade-in.css" as="style" onload="this.rel='stylesheet'">
@@ -21,6 +19,7 @@
 		<link rel="stylesheet" href="assets/css/noscript.css">
 	</noscript>
 	<link rel="icon" href="logo.ico">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body class="is-preload">
@@ -32,7 +31,7 @@
 					<image x="15" y="15" width="55" height="55" href="images/dev-icon.svg">
 				</svg>
 				<h1>SAMOEL ANDRES</h1>
-				<p>¡Es un placer recbir tu visita!</p>
+				<p>¡Es un placer recibir tu visita!</p>
 		</header>
 		<nav id="nav">
 			<ul>
@@ -109,7 +108,7 @@
 						<img class="icon major style3" height="180" width="180" src="images/angular.svg" alt="angular">
 						<h3>Angular</h3>
 						<p>Framework de desarrollo para construir aplicaciones web altamente escalables. Organiza la
-							aplicación en componentes reutilizables y emplea principalmente TypeScript, HTML y CSS</p>
+							aplicación en componentes reutilizables y emplea principalmente TypeScript, HTML y CSS.</p>
 					</li>
 					<li id="technology">
 						<img class="icon major style3" height="180" width="180" src="images/mongo.svg" alt="mongodb">
@@ -134,31 +133,29 @@
 			</section>
 			<!-- Activity -->
 			<section id="second" class="main special">
-				<header class="major">
-					<h2>Mi actividad</h2>
-					<p>A lo largo de mi recorrido como desarrollador, he realizado múltiples contribuciones a proyectos
-						personales y algunos importantes proyectos empresariales. A continuacuón, un breve resumen de mi
-						actividad.</p>
-				</header>
+				<h2>Mi actividad</h2>
+				<p>A lo largo de mi recorrido como desarrollador, he realizado múltiples contribuciones a proyectos
+					personales y algunos importantes proyectos empresariales. A continuacuón, un breve resumen de mi
+					actividad.</p>
 				<ul class="statistics">
 					<li class="style1">
-						<span class="icon solid fa-code-branch"></span>
+						<i class="icon bi bi-git"></i>
 						<strong>860</strong> Contribuciones importantes
 					</li>
 					<li class="style2">
-						<span class="icon fa-folder-open"></span>
+						<i class="icon bi bi-folder"></i>
 						<strong>11</strong> Proyectos personales y empresariales
 					</li>
 					<li class="style3">
-						<span class="icon solid fa-signal"></span>
+						<i class="icon bi bi-megaphone"></i>
 						<strong>100%</strong> Comunicación constante y entregas
 					</li>
 					<li class="style4">
-						<span class="icon solid fa-laptop"></span>
+						<i class="icon bi bi-award"></i>
 						<strong>100%</strong> Buenas prácticas de desarrollo
 					</li>
 					<li class="style5">
-						<span class="icon fa-gem"></span>
+						<i class="icon bi bi-gem"></i>
 						<strong>100%</strong> Cumplimiento de objetivos
 					</li>
 				</ul>
@@ -168,10 +165,8 @@
 			</section>
 			<!-- Projects -->
 			<section id="cta" class="main special">
-				<header class="major">
-					<h2>Mis proyectos</h2>
-					<p>Consulta información sobre proyectos que he realizado.</p>
-				</header>
+				<h2>Mis proyectos</h2>
+				<p>Consulta información sobre proyectos que he realizado.</p>
 				<ul class="features">
 					<li>
 						<div class="card">
@@ -262,14 +257,16 @@
 				</dl>
 				<ul class="icons">
 					<li>
-						<a href="https://linkedin.com/in/samoel-andres-vidal" class="icon brands fa-linkedin alt"
-							aria-label="LinkedIn">
+						<a href="https://linkedin.com/in/samoel-andres-vidal" class="icon alt" aria-label="LinkedIn"
+							style="width: 2.4em !important; display: flex; justify-content: center;">
+							<i class="bi bi-linkedin" style="font-size: 1.4em;"></i>
 							<span class="label">LinkedIn</span>
 						</a>
 					</li>
 					<li>
-						<a href="https://github.com/samoel-andres" class="icon brands fa-github alt"
-							aria-label="GitHub">
+						<a href="https://github.com/samoel-andres" class="icon alt" aria-label="GitHub"
+							style="width: 2.4em !important; display: flex; justify-content: center;">
+							<i class="bi bi-github" style="font-size: 1.4em;"></i>
 							<span class="label">GitHub</span>
 						</a>
 					</li>
@@ -278,10 +275,7 @@
 			<p class="copyright">Template by <a href="https://html5up.net">HTML5 UP</a>. Modified by Samoel Andres.</p>
 		</footer>
 	</div>
-	<script src="assets/js/jquery.min.js"></script>
-	<!-- <script  src="https://code.jquery.com/jquery-3.6.0.min.js"
-		integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5/5hb7V2h5F5lqPbZnHOMHEO2nvOKuNDgq3Ei23E" crossorigin="anonymous"
-		defer></script> -->
+	<script src="assets/js/jquery.min.js" defer></script>
 	<script src="assets/js/jquery.scrollex.min.js" defer></script>
 	<script src="assets/js/jquery.scrolly.min.js" defer></script>
 	<script src="assets/js/browser.min.js" defer></script>
